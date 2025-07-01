@@ -2,7 +2,7 @@
 cask "tz" do
   desc "Realtime timezone viewer CLI"
   homepage "https://github.com/demarsdouglas/tz-cli"
-  version "1.0.3"
+  version "1.0.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,27 +12,27 @@ cask "tz" do
 
   on_macos do
     on_intel do
-      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.3/tz-darwin-amd64.tar.gz",
+      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.4/tz-darwin-amd64.tar.gz",
         verified: "github.com/demarsdouglas/tz-cli"
-      sha256 "6e9f8e2bd592282a0f633f4aaf67822e89d5b40ca6eb9b350035afc8c619da38"
+      sha256 "2db49a3d4dd115fe58ff2f39b74037d8523f1a339e80bfd4c152ea699cec2888"
     end
     on_arm do
-      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.3/tz-darwin-arm64.tar.gz",
+      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.4/tz-darwin-arm64.tar.gz",
         verified: "github.com/demarsdouglas/tz-cli"
-      sha256 "e8da289537a40dcee44207e6bdeead16117475bcf9f8c65aa73410cddf039f7c"
+      sha256 "8c546caadf6fd00adca7fe072ac82cf33eac4fee5d30555acba2d377f6fd41d9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.3/tz-linux-amd64.tar.gz",
+      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.4/tz-linux-amd64.tar.gz",
         verified: "github.com/demarsdouglas/tz-cli"
-      sha256 "c4513c9b1db7577e031f186b2851cb2e5ff215680e3c5ca44d5878075e56b4b7"
+      sha256 "700aefb95fb818c7b36a6ceb7636750a96bbd7df480c740dcb8fb95e26462dcb"
     end
     on_arm do
-      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.3/tz-linux-arm64.tar.gz",
+      url "https://github.com/demarsdouglas/tz-cli/releases/download/v1.0.4/tz-linux-arm64.tar.gz",
         verified: "github.com/demarsdouglas/tz-cli"
-      sha256 "e044f7697292ed22dd9b250390794c406a1504b3f5d37f6f41f15d41a1a70586"
+      sha256 "89a2539e1418ab406542946c1dc970bc9ef10245127213c974339242b7bf6645"
     end
   end
 
